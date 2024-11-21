@@ -1,6 +1,6 @@
 {
-  "name": "array.utils",
-  "version": "1.0.0",
+  "name": "array.func.utils",
+  "version": "1.0.1",
   "description": "a utility package for arrays.",
   "main": "index.js",
   "scripts": {

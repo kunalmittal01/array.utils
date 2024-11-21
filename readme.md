@@ -1,6 +1,6 @@
-# array.utils
+# array.func.utils
 
-**array.utils** is a lightweight and efficient utility library for performing common array operations. It includes methods for summing array elements, finding averages, removing duplicates, shuffling, flattening nested arrays, and more. Additionally, it provides utility functions for handling asynchronous operations like debouncing and throttling.
+**array.func.utils** is a lightweight and efficient utility library for performing common array operations. It includes methods for summing array elements, finding averages, removing duplicates, shuffling, flattening nested arrays, and more. Additionally, it provides utility functions for handling asynchronous operations like debouncing and throttling.
 
 ---
 
@@ -9,7 +9,11 @@
 To install the package, use:
 
 ```bash
-npm install array.utils
+npm install array.func.utils
+```
+
+```javascript
+const arrayUtils = require('array.func.utils');
 ```
 
 ## Features
