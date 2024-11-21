@@ -1,7 +1,3 @@
-oper Markdown syntax for official publication:
-
-markdown
-Copy code
 # array.utils
 
 **array.utils** is a lightweight and efficient utility library for performing common array operations. It includes methods for summing array elements, finding averages, removing duplicates, shuffling, flattening nested arrays, and more. Additionally, it provides utility functions for handling asynchronous operations like debouncing and throttling.
@@ -18,7 +14,7 @@ npm install array.utils
 
 ## Features
 
-1. Basic Array Operations
+## 1. Basic Array Operations
 
 * getSum(arr)
 
@@ -40,7 +36,7 @@ Example:
 arrayUtils.getAverage([1, 2, 3, 4]); // Output: 2.5
 ```
 
-2. Array Manipulation
+ ## 2. Array Manipulation
 
 * removeDuplicates(arr)
 
@@ -100,7 +96,7 @@ Example:
 arrayUtils.flat([1, [2, 3], [4, [5]]]); // Output: [1, 2, 3, 4, 5]
 ```
 
-3. Asynchronous Function Utilities
+## 3. Asynchronous Function Utilities
 
 * debounceAsync(fn, delay)
 
@@ -124,7 +120,7 @@ const throttledFn = arrayUtils.throttleAsync(async (x) => x * 2, 3000);
 throttledFn(5).then(console.log); // Logs 10 after 3 seconds
 ```
 
-4. API Reference
+## 4. API Reference
 
 * getSum(arr)
 
